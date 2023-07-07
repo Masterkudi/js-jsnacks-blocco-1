@@ -1,15 +1,18 @@
 //array numeri
 
-const numeri = [42, 18, 7, 91, 56, 23, 65, 33, 100, 87, 39, 52, 76, 29, 14, 61, 97, 45, 3, 82];
+const listaNumeri = [];
+let somma = 0;
 
-let sum = 0;
 
-for (let i = 0; i < numeri.length; i++) {
+for (let i = 0; i < 30; i++) {
+    const numero = Math.floor(Math.random() * 100) + 1;
     
-    if (i % 2 === 1) {
-        sum += numeri[i];
+    if (i % 2 !== 0) {
+        somma += numero;
     }
+
+    listaNumeri.push(numero);
 }
 
-console.log (`La somma degli elementi dell'array in posizione 
-dispari è ${sum}`);
+console.log(listaNumeri);
+console.log(somma);
