@@ -1,4 +1,4 @@
-//array numeri
+//array numeri random
 
 const listaNumeri = [];
 let somma = 0;
