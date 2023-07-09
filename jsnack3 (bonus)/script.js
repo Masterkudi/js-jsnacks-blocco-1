@@ -37,4 +37,15 @@ while (Math.abs(differenza) > 0) {
 }
 
 console.log(lista1);
-console.log(lista2);
+console.log(lista2); 
+
+
+// potenza di 2
+
+let i = 0;
+
+
+while (Math.pow(2, i) <= 1000) {
+    console.log(Math.pow(2, i));
+    i++;
+  }
